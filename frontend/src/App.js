@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = process.env.REACT_APP_API_URL || "http://54.90.74.73:5005/api";
+const API = process.env.REACT_APP_API_URL || "http://(localhost):5005/api";
 
 const s = {
   header: { background: "#2c3e50", color: "#fff", padding: "16px 40px", display: "flex", justifyContent: "space-between", alignItems: "center" },
